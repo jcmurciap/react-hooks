@@ -11,7 +11,7 @@ export const Counter = () => {
 
     return (
         <div className="mt-5">
-            <h3>Counter: useState</h3>
+            <h4>Counter component</h4>
             <span>Valor: {counter}</span>
             <br />
             <button className="btn btn-outline-primary m-2" onClick={() => onClick(1)}>

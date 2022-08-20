@@ -16,7 +16,7 @@ export const User = () => {
     return (
         <div className="mt-2">
             <br/>
-            <h3>User: useState + Interface</h3>
+            <h4>User Interface</h4>
             <button className="btn btn-outline-primary mb-2" onClick={onLogin}>
                 Login
             </button>
