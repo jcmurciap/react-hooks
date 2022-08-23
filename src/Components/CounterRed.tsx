@@ -40,19 +40,19 @@ export const CounterRed = () => {
         <>
             <h2>Counter: {counterState.contador}</h2>
             <button
-                className="btn btn-outline-primary"
+                className="btn btn-outline-primary m-1"
                 onClick={() => dispatch({type: "incremental"})}
             >
                 + 1
             </button>
             <button
-                className="btn btn-outline-primary"
+                className="btn btn-outline-primary m-1"
                 onClick={() => dispatch({type: "decremental"})}
             >
                 - 1
             </button>
             <button
-                className="btn btn-outline-primary"
+                className="btn btn-outline-primary m-1"
                 onClick={() => dispatch({type: "custom", payload:100})}
             >
                 100
