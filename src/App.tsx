@@ -22,13 +22,6 @@ function App() {
             <h1>Custom Hooks</h1>
             <Form2/>
             <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
         </>
     );
 }
